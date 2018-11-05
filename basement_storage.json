@@ -1,0 +1,205 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "basement" ],
+    "weight": 500,
+    "object": {
+      "fill_ter": "t_rock",
+      "rotation": [ 0, 3 ],
+      "rows": [
+		"                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    ||||||||||||||||    ",
+        "    |ooooo|..|RR..R|    ",
+        "    |ooooo;..;.RR.R|    ",
+        "    |,,,,,;..;....r|    ",
+        "    |,,,,,,.......r|    ",
+        "    |,,,,,;..;....r|    ",
+        "    |ooooo;..;R.R..|    ",
+        "    |ooooo|..|.R.RR|    ",
+        "    |||||||..|||||||    ",
+        "    |C..CC|..|lll.l|    ",
+        "    |C....+..+....l|    ",
+        "    |C..CC|..|||+|||    ",
+        "    |||+|||++|k...K|    ",
+        "    |OO..O|..|k...K|    ",
+        "    |O.OO.|<<|k...K|    ",
+        "    ||||||||||||||||    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "+": "t_door_c",
+        ".": "t_thconc_floor",
+        ",": "t_rock_floor",
+        "<": "t_stairs_up",
+        "c": "t_thconc_floor",
+        "|": "t_rock_smooth",
+        ";": "t_chainfence",
+        "O": "t_thconc_floor",
+        "o": ["t_machinery_old", "t_machinery_light", "t_rock_floor", "t_rock_floor", "t_rock_floor"],
+        "r": "t_recycler",
+        "R": "t_thconc_floor",
+        "l": "t_thconc_floor",
+        "K":"t_thconc_floor",
+        "k":"t_thconc_floor",
+        "C":"t_thconc_floor"
+      },
+      "furniture": {
+        "R": ["f_rubble_landfill" ],
+        "l": "f_locker",
+        "k": "f_rack",
+        "K": "f_rack",
+        "C": "f_cupboard",
+        "O": ["f_bed", "f_dresser", "f_table", "f_counter", "f_fridge", "f_oven"]
+      },
+      "items": {
+        "C": { "item": "cannedfood", "chance": 50, "repeat": [ 1, 3 ] },
+        "R": { "item": "trash", "chance": 100, "repeat": [ 3, 5 ] },
+        "K": { "item": "electronics", "chance": 35, "repeat": [ 1, 2 ] },
+        "k": { "item": "tools_common", "chance": 25, "repeat": [ 1, 2 ] },
+        "l": { "item": "chem_home", "chance": 25, "repeat": [ 1, 2 ] }
+      },
+      "place_monsters": [
+        { "monster": "GROUP_ZOMBIE", "x": [ 2, 23 ], "y": [ 1, 19 ], "chance": 2 }
+      ]
+    }
+  },
+    {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "basement" ],
+    "weight": 500,
+    "object": {
+      "fill_ter": "t_rock",
+      "rotation": [ 0, 3 ],
+      "rows": [
+		"                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   ||||||||||||||||||   ",
+        "   |C.CC.CI.OOI22222|   ",
+        "   |C.CC.CI..OI1....|   ",
+        "   |C.CC.CIO..IIII+I|   ",
+        "   |C....CI.O.......|   ",
+        "   |I+IIIIIIIIII...I|   ",
+        "   |................|   ",
+        "   |I+IIIII..IIIII+I|   ",
+        "   |l....lI++Ik....K|   ",
+        "   |l.ll.lI..Ik.kK.K|   ",
+        "   |l.ll.lI<<Ik.kK.K|   ",
+        "   ||||||||||||||||||   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "2": "t_sewage_pipe",
+        "1": "t_sewage_pump",
+        "+": "t_door_c",
+        ".": "t_rock_floor",
+        "<": "t_stairs_up",
+        "|": "t_concrete_wall",
+        "I": "t_wall",
+        "O": "t_rock_floor",
+        "l": "t_rock_floor",
+        "K":"t_rock_floor",
+        "k":"t_rock_floor",
+        "C":"t_rock_floor"
+      },
+      "furniture": {
+        "l": "f_rack",
+        "k": "f_rack",
+        "K": "f_rack",
+        "C": "f_rack",
+        "O": ["f_bed", "f_dresser", "f_table", "f_counter", "f_fridge", "f_oven"]
+      },
+      "items": {
+        "C": { "item": "cannedfood", "chance": 50, "repeat": [ 1, 3 ] },
+        "K": { "item": "electronics", "chance": 15, "repeat": [ 1, 2 ] },
+        "k": { "item": "tools_common", "chance": 30, "repeat": [ 1, 2 ] },
+        "l": { "item": "chem_home", "chance": 25, "repeat": [ 1, 2 ] }
+      },
+      "place_monsters": [
+        { "monster": "GROUP_ZOMBIE", "x": [ 2, 23 ], "y": [ 1, 19 ], "chance": 2 }
+      ]
+    }
+   },
+    {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "basement" ],
+    "weight": 500,
+    "object": {
+      "fill_ter": "t_rock",
+      "rotation": [ 0, 3 ],
+      "rows": [
+		"                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "||||||||||||||||||||||||",
+        "|l,,,|CCCC,C|,,,,,|,2,,|",
+        "|l,,,+,,,,,C|w,,,w|,2,,|",
+        "|l,,l|CCC,,C|w,,,w|,2,,|",
+        "|l,,l|,,,,,C|,,,,,|,212|",
+        "|||+||||+||||||+|||,,,,|",
+        "|,,,,|,,,,,,,,,,,,|,,,,|",
+        "|k,,K|,,,,,,,,,,,,|,,,,|",
+        "|k,,K|,,,,,,,,,,,,|,,,,|",
+        "|k,,,+,,,,,,,,,,,,+,,,,|",
+        "|k,,K|,,,,|++|,,,,|,,,2|",
+        "|k,,K|,,,,|,,|,,,,|,,,2|",
+        "|,,,,|,,,,|<<|,,,,|,,,2|",
+        "||||||||||||||||||||||||",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        "2": "t_sewage_pipe",
+        "1": "t_sewage_pump",
+        "+": "t_door_c",
+        ",": "t_rock_floor",
+        "<": "t_stairs_up",
+        "|": "t_wall",
+        "l": "t_rock_floor",
+        "K": "t_rock_floor",
+        "k": "t_rock_floor",
+        "C": "t_rock_floor",
+        "w": "t_rock_floor"
+      },
+      "furniture": {
+        "l": "f_rack",
+        "k": "f_rack",
+        "K": "f_rack",
+        "C": "f_rack",
+        "w": "f_washer"
+      },
+      "items": {
+        "C": { "item": "cannedfood", "chance": 50, "repeat": [ 1, 3 ] },
+        "K": { "item": "electronics", "chance": 15, "repeat": [ 1, 2 ] },
+        "k": { "item": "tools_common", "chance": 30, "repeat": [ 1, 2 ] },
+        "l": { "item": "chem_home", "chance": 25, "repeat": [ 1, 2 ] },
+        "w": { "item": "laundry", "chance": 25, "repeat": [ 1, 2 ] }
+      },
+      "place_monsters": [
+        { "monster": "GROUP_ZOMBIE", "x": [ 2, 23 ], "y": [ 1, 19 ], "chance": 2 }
+      ]
+    }
+  }
+]

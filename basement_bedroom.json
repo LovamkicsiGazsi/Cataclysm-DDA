@@ -1,0 +1,187 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "basement" ],
+    "weight": 250,
+    "object": {
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "       |-----|          ",
+        "     |-|B.B.t|          ",
+        "     |o+B.B.t|----|     ",
+        " |---|o+......+...|---| ",
+        " |ooo|o+...ata|i.&|.B.| ",
+        " |+++|-|--+--|----|.B.| ",
+        " |....b|s....+........| ",
+        " |sss.b|s...C|-|.....a| ",
+        " |---.b|s.a.C|o+.s|-+-| ",
+        " |BB...+....f|o+.s|i.&| ",
+        " |BB.T.|....f|o+.s|..T| ",
+        " |---|+|-|..||||||||||| ",
+        "     |..&|<<|           ",
+        "     |i..|--|           ",
+        "     |---|              ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [
+      	"basement_game"],
+
+      "furniture": {
+        "T": "f_trashcan",
+        "o": "f_dresser",
+        "B": "f_bed",
+        "C": "f_cupboard"
+      },
+      "terrain": {
+        "T": "t_rock_floor",
+        "o": "t_rock_floor",
+        "B": "t_rock_floor",
+        "C": "t_rock_floor"
+      },
+      "items": {
+        "B": { "item": "bed", "chance": 50, "repeat": [ 1, 3 ] },
+        "T": { "item": "trash", "chance": 35, "repeat": [ 2, 3 ] },
+        "o": { "item": "dresser", "chance": 65, "repeat": [ 2, 3 ] },
+        "b": { "item": "homebooks", "chance": 35, "repeat": [ 1, 2 ] },
+        "f": { "item": "fridgesnacks", "chance": 35, "repeat": [ 1, 2 ] },
+        "C": { "item": "alcohol", "chance": 15, "repeat": [ 2, 4 ] }
+      },
+
+      "place_monsters":
+      [{ "monster": "GROUP_ZOMBIE", "x": [ 1, 23 ], "y": [ 1, 23 ], "chance": 50 }]
+    }
+  },
+    {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "basement" ],
+    "weight": 250,
+    "object": {
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "        |||||           ",
+        "        |&|&|           ",
+        "        |.|.|           ",
+        "     ||||+|+|           ",
+        "     |.w|...||||||||||  ",
+        "     |.w|ii.|o;;;;;;o|  ",
+        "   |||+||||+|BB;;;;BB|  ",
+        "   |tc;;;;;;|;;;;;;;;|  ",
+        "   |tc;;;ccc+;;;;;;;o|  ",
+        "   |tc;;;ttt|;;;;;;BB|  ",
+        "   ||||;;||||;;;;;;;;|  ",
+        "   |O;;;;OOO|;;;;;;;o|  ",
+        "   |O;;;;;;;+;;;;;;BB|  ",
+        "   |O;;;;OOO|;;;;;;;;|  ",
+        "   ||++||||||o;;;;;;o|  ",
+        "    |;;|    |BB;;;;BB|  ",
+        "    |<<|    ||||||||||  ",
+        "    ||||                ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [
+      	"basement_game"],
+
+      "furniture": {
+        "o": "f_dresser",
+        "B": "f_bed",
+        "c": "f_chair",
+        "O": "f_bookcase"
+      },
+      "terrain": {
+        "o": "t_floor",
+        "B": "t_floor",
+        "c": "t_floor",
+        ";": "t_floor",
+        "O": "t_floor"
+      },
+      "items": {
+        "B": { "item": "bed", "chance": 50, "repeat": [ 1, 3 ] },
+        "o": { "item": "dresser", "chance": 65, "repeat": [ 2, 3 ] },
+        "O": { "item": "homebooks", "chance": 35, "repeat": [ 1, 2 ] },
+        "w": { "item": "laundry", "chance": 65, "repeat": [ 1, 2 ] }
+      },
+
+      "place_monsters":
+      [{ "monster": "GROUP_ZOMBIE", "x": [ 1, 23 ], "y": [ 1, 23 ], "chance": 50 }]
+    }
+   },
+    {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "basement" ],
+    "weight": 250,
+    "object": {
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   ||||||||||||         ",
+        "   |;;oBBo;;;O|         ",
+        "   |x;;BB;;;;O|         ",
+        "   |D;;;;;;;;O|         ",
+        "   |Dc;;;;;;;O|         ",
+        "   |||||||+||||||||||   ",
+        "   |<.|.......+....w|   ",
+        "   |<.|..ppp..||||.w|   ",
+        "   |.....ppp..|.i|.w|   ",
+        "   |..........+.t|.w|   ",
+        "   |||||||+||||||||||   ",
+        "   |O;;;;;;DDx|         ",
+        "   |O;;;;;;;c;|         ",
+        "   |O;;BB;;;;;|         ",
+        "   |O;oBBo;;;;|         ",
+        "   ||||||||||||         ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [
+      	"basement_game"],
+
+      "furniture": {
+        "o": "f_dresser",
+        "B": "f_bed",
+        "c": "f_chair",
+        "D": "f_desk",
+        "O": "f_bookcase"
+      },
+      "terrain": {
+        "o": "t_floor",
+        "O": "t_floor",
+        "B": "t_floor",
+        "c": "t_floor",
+        ";": "t_floor",
+        "D": "t_floor",
+        "x": "t_console_broken"
+      },
+      "items": {
+        "B": { "item": "bed", "chance": 50, "repeat": [ 1, 3 ] },
+        "O": { "item": "homebooks", "chance": 25, "repeat": [ 2, 3 ] },
+        "b": { "item": "homebooks", "chance": 35, "repeat": [ 1, 2 ] },
+        "w": { "item": "laundry", "chance": 65, "repeat": [ 1, 2 ] },
+        "D": { "item": "homebooks", "chance": 60, "repeat": [ 1, 2 ] }
+      },
+
+      "place_monsters":
+      [{ "monster": "GROUP_ZOMBIE", "x": [ 1, 23 ], "y": [ 1, 23 ], "chance": 50 }]
+    }
+  }
+]
